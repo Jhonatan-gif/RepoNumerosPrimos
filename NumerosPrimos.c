@@ -17,7 +17,11 @@ int main() {
     printf("Ingrese un número: ");
     scanf("%d", &numero);
     
-    
+    if (esPrimo(numero)) {
+        printf("%d es un número primo.\n", numero);
+    } else {
+        printf("%d no es un número primo.\n", numero);
+    }
     
     return 0;
 }
